@@ -38,3 +38,27 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'capistrano', group: :development
+
+gem 'capistrano-rails'
+
+gem 'capistrano-bundler'
+
+# group :development do
+#   gem 'capistrano',  '~> 3.1'
+#   gem 'capistrano-rails', '~> 1.1'
+#   gem 'capistrano-rvm'
+# end
+
+# Use Capistrano for deployment
+# gem 'capistrano', '~> 3.0', require: false, group: :development
+# gem 'capistrano-rvm'
+# gem 'capistrano-rails'
+ 
+# group :development do
+# 	gem 'capistrano-rails', '~> 1.1', require: false
+# 	gem 'capistrano-bundler', '~> 1.1', require: false
+# end 
+
+# gem 'net-ssh', '~> 2.9.1', :git => "https://github.com/net-ssh/net-ssh"
+
